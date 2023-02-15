@@ -16,10 +16,10 @@ while True:
     if valasz.lower() != 'igen':
         break
 
-    #2
+#2
 
 
-    #3 Hozzáférés listaelem segítségével.
+#3 Hozzáférés listaelem segítségével.
 print("\nTanulók listája\n")
 for item in tanulok:
-    print(f"Név: {item[0]}, születési ideje: {item[1]}, nagasság: {item[2]}")
+    print(f"Név: {item[0]}, születési ideje: {item[1]}, magasság: {item[2]}")
